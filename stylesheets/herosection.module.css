@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:wght@300;600;800&family=Poppins:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:wght@300;600;800&family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:wght@300;600;800&family=Poppins:wght@500&display=swap");
+.herosection_container {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1260px;
+  /* background-color: #f9f9f9; */
+}
+.center {
+  display: flex;
+  width: 100%;
+  max-width: 1215px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: start;
+  /* margin-left: 150px; */
+  margin-top: 120px;
+}
+.image_container {
+  /* position: absolute; */
+  z-index: 1;
+}
+.image {
+  width: 650px;
+  height: 800px;
+}
+.box_container {
+  width: 729px;
+  height: 350px;
+  padding: 45px;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  background-color: white;
+  margin-left: 400px;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.first {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  filter: blur(0.3px);
+}
+.second {
+  font-size: 40px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 2px;
+}
+.third {
+  font-family: "Libre Franklin", sans-serif;
+  margin: 15px 0px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+.button {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  width: 120px;
+  color: white;
+  outline: none;
+  background-color: black;
+  padding: 12px 18px;
+  border: none;
+  font-size: 14px;
+}
+.button:hover {
+  background-color: #dad4cf;
+  color: black;
+}
