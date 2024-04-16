@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/navbar";
 import HeroSection from "../components/heroSection";
+import Browsethelatestin from "../components/browsethelatestin";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div>
         <Navbar />
         <HeroSection />
+        <Browsethelatestin />
       </div>
     </>
   );
