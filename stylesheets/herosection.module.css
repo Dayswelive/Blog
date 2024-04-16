@@ -47,8 +47,9 @@
   filter: blur(0.3px);
 }
 .second {
-  font-size: 40px;
   font-family: "Cormorant Garamond", serif;
+
+  font-size: 40px;
   font-weight: 300;
   font-style: normal;
   line-height: 1.2;
