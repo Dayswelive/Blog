@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:wght@300;600;800&family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:wght@300;600;800&family=Poppins:wght@500&display=swap");
+.wrapper {
+  height: 700px;
+  width: 100%;
+  max-width: 1700px;
+  display: flex;
+  flex-direction: row;
+  gap: 160px;
+}
+.rightcontainer {
+  display: flex;
+  height: 700px;
+}
+.imagefive {
+  width: 650px;
+  height: 700px;
+}
+.text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+}
+.leftcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  height: 700px;
+}
+.hello {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 40px;
+  font-style: italic;
+}
+.kashish {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 36px;
+}
+.textcontent {
+  display: flex;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}

@@ -4,6 +4,7 @@ import HeroSection from "../components/heroSection";
 import Browsethelatestin from "../components/browsethelatestin";
 import Getintouch from "../components/getintouch";
 import Trending from "../components/trending";
+import Myself from "../components/myself";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Browsethelatestin />
         <Getintouch />
         <Trending />
+        <Myself />
       </div>
     </>
   );
