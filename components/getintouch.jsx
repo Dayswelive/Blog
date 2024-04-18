@@ -16,18 +16,18 @@ function getintouch() {
             </span>
           </div>
           <div className={styles.form}>
-            <input
+            {/* <input
               type="text"
               placeholder="first name.."
               className={styles.name}
-            />
+            /> */}
             <input
               type="email"
               placeholder="email address.."
               className={styles.email}
             />
             <button className={styles.button}>
-              <span className={styles.buttontext}>GO</span>
+              <span className={styles.buttontext}>Subscribe</span>
             </button>
           </div>
         </div>

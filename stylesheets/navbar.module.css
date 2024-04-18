@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:wght@300;600;800&family=Poppins:wght@500&display=swap");
 .navbar_container {
   width: 100%;
-  max-width: 1600px;
+  max-width: 1900px;
   height: 60px;
   display: flex;
   background-color: #ffffff;

@@ -3,7 +3,7 @@
 .wrapper {
   height: 700px;
   width: 100%;
-  max-width: 1700px;
+  max-width: 1900px;
   display: flex;
   flex-direction: row;
   gap: 160px;
